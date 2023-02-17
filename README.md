@@ -15,10 +15,18 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -59,18 +67,56 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need: Nothing
 
+
+### Setup
+
+Clone this repository to your desired folder:
+
+Example commands:
 ```sh
- git clone https://github.com/Rimuru-Tempest-26/Portfolio.git
+  cd my-folder
+  git clone https://github.com/Rimuru-Tempest-26/Portfolio.git
+```
+
+### Install
+
+Install this project with:
+
+Example command:
+```sh
+  cd my-project
+  npm install
 ```
 
 ### Usage
 
 To run the project, execute the following command:
 
+Example command:
 ```sh
   Run with live server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+
+Example command:
+```sh
+  This project has no testing command.
+```
+
+### Deployment
+
+You can deploy this project using:
+
+
+Example:
+```sh
+  You can deploy using github pages or netlify or something just like that.
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -92,6 +138,46 @@ To run the project, execute the following command:
 - [ ] **responsive design**
 - [ ] **demo project**
 - [ ] **personal profilo**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+If you like my project, you can give me a star by supporting me.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thanks microverse.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **[Is your project still developing?]**
+
+  - [Yes, of course]
+
+- **[Is this project will have desktop view?]**
+
+  - [Yes, it will]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
