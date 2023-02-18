@@ -228,9 +228,9 @@ ul {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    border-radius: 0 15% 0 0;
+    border-radius: 0 100px 0 0;
     padding: 24px;
-    height: 1300px;
+    height: 1450px;
     margin-bottom: -200px;
   }
 
