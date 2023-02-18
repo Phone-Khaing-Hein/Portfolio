@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 ul {
@@ -33,7 +35,6 @@ ul {
   }
 
   .brand {
-    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -47,7 +48,7 @@ ul {
     background: none;
   }
 
-  .headline {
+  #headline {
     background-image: url("/images/background.svg");
     height: 718px;
     background-color: #fff;
@@ -57,11 +58,10 @@ ul {
     justify-content: center;
     align-items: start;
     background-size: 100%;
-    border-radius: 0 0 0 25%;
+    border-radius: 0 0 0 15%;
   }
 
   .title {
-    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -71,7 +71,6 @@ ul {
   }
 
   .description {
-    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -82,7 +81,6 @@ ul {
   }
 
   .connect-link {
-    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -100,5 +98,290 @@ ul {
     display: flex;
     gap: 20px;
     align-items: center;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    width: 100%;
+    margin-top: 90px;
+    gap: 88px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 16px;
+    gap: 12px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    width: inherit;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+
+  .card-image {
+    width: inherit;
+  }
+
+  .card-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #172b4d;
+  }
+
+  .position {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #344563;
+  }
+
+  .status {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #7a869a;
+  }
+
+  .date {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #7a869a;
+  }
+
+  .work-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #344563;
+  }
+
+  .languages {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .language {
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+  }
+
+  .card-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    background: #fff;
+  }
+
+  .card-button:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+
+  .card-button:focus {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  .card-button:disabled {
+    border: 1px solid #c1c7d0;
+    color: #5e6c84;
+  }
+
+  #aboutme {
+    margin-top: 114px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 100px 0 0;
+    padding: 24px;
+    height: 1450px;
+    margin-bottom: -200px;
+  }
+
+  .aboutme-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    background: #fff;
+    margin-top: 34px;
+    margin-bottom: 60px;
+  }
+
+  .aboutme-button:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+
+  .aboutme-button:focus {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  .aboutme-button:disabled {
+    border: 1px solid #c1c7d0;
+    color: #5e6c84;
+  }
+
+  #skills {
+    padding: 0 24px;
+  }
+
+  .skill-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .skill-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .skill-detail {
+    margin-top: 36px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 12px 9px;
+    gap: 16px;
+    margin-bottom: 12px;
+  }
+
+  .skill-detail > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  hr {
+    margin-top: 23px;
+    margin-bottom: 24px;
+    background: #dfe1e6;
+  }
+
+  #contact-us {
+    background-image: url("/images/contact-form-background.svg");
+    background-color: #6070ff;
+    background-repeat: no-repeat;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    background-size: 100%;
+    border-radius: 15% 0 0 0;
+    padding: 0 24px;
+  }
+
+  .contact-form-title {
+    margin-top: 103px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .contact-form-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #ebebff;
+    margin-top: 12px;
+  }
+
+  .contact-form {
+    margin-top: 80px;
+  }
+
+  .input {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px 0 15px 16px;
+    margin-bottom: 20px;
+  }
+
+  .textarea {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px 0 15px 16px;
+    margin-bottom: 20px;
+  }
+
+  .contact-form-button {
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #6070ff;
+    border: none;
+    margin-bottom: 45px;
+  }
+
+  .contact-form-button:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+
+  .contact-form-button:focus {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  .contact-form-button:disabled {
+    border: 1px solid #c1c7d0;
+    color: #5e6c84;
   }
 }
