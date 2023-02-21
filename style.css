@@ -211,11 +211,15 @@ ul {
   .card-button:hover {
     background: #6070ff;
     color: #fff;
+    outline: none;
+    border: 1px solid #6070ff;
   }
 
   .card-button:focus {
     background: #2230d2;
     color: #fff;
+    outline: none;
+    border: 1px solid #2230d2;
   }
 
   .card-button:disabled {
@@ -254,11 +258,15 @@ ul {
   .aboutme-button:hover {
     background: #6070ff;
     color: #fff;
+    outline: none;
+    border: 1px solid #6070ff;
   }
 
   .aboutme-button:focus {
     background: #2230d2;
     color: #fff;
+    outline: none;
+    border: 1px solid #2230d2;
   }
 
   .aboutme-button:disabled {
@@ -382,11 +390,15 @@ ul {
   .contact-form-button:hover {
     background: #6070ff;
     color: #fff;
+    outline: none;
+    border: 1px solid #6070ff;
   }
 
   .contact-form-button:focus {
     background: #2230d2;
     color: #fff;
+    outline: none;
+    border: 1px solid #2230d2;
   }
 
   .contact-form-button:disabled {
