@@ -125,7 +125,7 @@ Example:
 
 ## 👥 Author <a name="authors"></a>
 
-- GitHub: [@phonekhainghein](https://github.com/Rimuru-Tempest-26)
+- GitHub: [@phonekhainghein](https://github.com/Rimuru-Tempest-26), [@Helina Abebe](https://github.com/helina42)
 - Twitter: [@phonekhainghein](https://twitter.com/PhoneKhaingHein)
 - LinkedIn: [Phone Khaing Hein](https://www.linkedin.com/in/phone-khaing-hein-759497216/)
 
