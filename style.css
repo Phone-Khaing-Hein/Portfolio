@@ -349,6 +349,10 @@ ul {
     margin-bottom: 20px;
   }
 
+  .input:focus {
+    outline: none;
+  }
+
   .textarea {
     background: #fff;
     border: 1px solid #cfd8dc;
@@ -356,6 +360,11 @@ ul {
     width: 100%;
     padding: 15px 0 15px 16px;
     margin-bottom: 20px;
+    resize: none;
+  }
+
+  .textarea:focus {
+    outline: none;
   }
 
   .contact-form-button {
