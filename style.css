@@ -346,6 +346,7 @@ ul {
 
   .contact-form {
     margin-top: 80px;
+    border-radius: 70px 12px 12px 12px;
   }
 
   .input {
