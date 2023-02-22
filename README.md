@@ -126,10 +126,15 @@ Example:
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
+👤 **Phone Khaing Hein**
 
-- GitHub: [@phonekhainghein](https://github.com/Rimuru-Tempest-26), [@Helina Abebe](https://github.com/helina42)
+- GitHub: [@phonekhainghein](https://github.com/Rimuru-Tempest-26)
 - Twitter: [@phonekhainghein](https://twitter.com/PhoneKhaingHein)
 - LinkedIn: [Phone Khaing Hein](https://www.linkedin.com/in/phone-khaing-hein-759497216/)
+
+👤 **Helina Abebe Alebachew**
+
+- GitHub: [@helina42](https://github.com/helina42)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,20 +171,6 @@ If you like my project, you can give me a star by supporting me.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thanks microverse.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[Is your project still developing?]**
-
-  - [Yes, of course]
-
-- **[Is this project will have desktop view?]**
-
-  - [Yes, it will]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
