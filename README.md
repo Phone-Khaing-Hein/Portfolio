@@ -69,12 +69,12 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need: Nothing
 
-
 ### Setup
 
 Clone this repository to your desired folder:
 
 Example commands:
+
 ```sh
   cd my-folder
   git clone https://github.com/Rimuru-Tempest-26/Portfolio.git
@@ -85,6 +85,7 @@ Example commands:
 Install this project with:
 
 Example command:
+
 ```sh
   cd my-project
   npm install
@@ -95,6 +96,7 @@ Example command:
 To run the project, execute the following command:
 
 Example command:
+
 ```sh
   Run with live server
 ```
@@ -103,8 +105,8 @@ Example command:
 
 To run tests, run the following command:
 
-
 Example command:
+
 ```sh
   This project has no testing command.
 ```
@@ -113,8 +115,8 @@ Example command:
 
 You can deploy this project using:
 
-
 Example:
+
 ```sh
   You can deploy using github pages or netlify or something just like that.
 ```
@@ -124,10 +126,15 @@ Example:
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
+👤 **Phone Khaing Hein**
 
-- GitHub: [@phonekhainghein](https://github.com/Rimuru-Tempest-26)
+- GitHub: [@phonekhainghein](https://github.com/Rimuru-Tempest-26), [@helina](https://github.com/helina42)
 - Twitter: [@phonekhainghein](https://twitter.com/PhoneKhaingHein)
 - LinkedIn: [Phone Khaing Hein](https://www.linkedin.com/in/phone-khaing-hein-759497216/)
+
+👤 **Helina Abebe Alebachew**
+
+- GitHub: [@helina42](https://github.com/helina42)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +147,6 @@ Example:
 - [ ] **personal profilo**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTRIBUTING -->
 
@@ -155,6 +161,7 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
+
 If you like my project, you can give me a star by supporting me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -164,20 +171,6 @@ If you like my project, you can give me a star by supporting me.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thanks microverse.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[Is your project still developing?]**
-
-  - [Yes, of course]
-
-- **[Is this project will have desktop view?]**
-
-  - [Yes, it will]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
