@@ -140,6 +140,7 @@ ul {
 
 .card-image {
   width: 544px;
+  height: 448px;
 }
 
 .card-title {
@@ -357,6 +358,10 @@ html {
     padding: 142px 142px 0 0;
   }
 
+  .skill-detail > img {
+    padding-right: 62px;
+  }
+
   .skill-detail {
     margin-top: 36px;
     background: #f7f7f9;
@@ -423,7 +428,7 @@ html {
   .input {
     background: #fff;
     border: 1px solid #cfd8dc;
-    border-radius: 8px;
+    border-radius: 2px;
     width: 100%;
     padding: 15px 0 15px 16px;
     margin-bottom: 20px;
@@ -432,7 +437,7 @@ html {
   .textarea {
     background: #fff;
     border: 1px solid #cfd8dc;
-    border-radius: 8px;
+    border-radius: 2px;
     width: 100%;
     padding: 15px 0 15px 16px;
     margin-bottom: 20px;
