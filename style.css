@@ -57,7 +57,7 @@ ul {
 }
 
 #headline {
-  background-image: url("/images/background.svg");
+  background-image: url("./images/background.svg");
   height: 718px;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -215,6 +215,7 @@ ul {
   border-radius: 8px;
   padding: 12px;
   background: #fff;
+  cursor: pointer;
 }
 
 .card-button:hover {
@@ -262,6 +263,7 @@ ul {
   background: #fff;
   margin-top: 34px;
   margin-bottom: 60px;
+  cursor: pointer;
 }
 
 .aboutme-button:hover {
@@ -322,6 +324,7 @@ hr {
   color: #6070ff;
   border: none;
   margin-bottom: 45px;
+  cursor: pointer;
 }
 
 .contact-form-button:hover {
@@ -386,7 +389,7 @@ html {
   }
 
   #contact-us {
-    background-image: url("/images/contact-form-background.svg");
+    background-image: url("./images/contact-form-background.svg");
     background-color: #6070ff;
     background-repeat: no-repeat;
     display: flex;
@@ -476,7 +479,7 @@ html {
   }
 
   #headline {
-    background-image: url("/images/background.svg");
+    background-image: url("./images/background.svg");
     height: 718px;
     background-color: #fff;
     background-repeat: no-repeat;
@@ -574,7 +577,7 @@ html {
   }
 
   #contact-us {
-    background-image: url("/images/contact-form-background.svg");
+    background-image: url("./images/contact-form-background.svg");
     background-color: #6070ff;
     background-repeat: no-repeat;
     margin-top: 72px;
