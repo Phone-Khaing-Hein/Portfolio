@@ -216,6 +216,8 @@ ul {
   padding: 12px;
   background: #fff;
   cursor: pointer;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
 }
 
 .card-button:hover {
@@ -223,6 +225,7 @@ ul {
   color: #fff;
   outline: none;
   border: 1px solid #6070ff;
+  transform: scale(1.1);
 }
 
 .card-button:focus {
@@ -264,6 +267,8 @@ ul {
   margin-top: 34px;
   margin-bottom: 60px;
   cursor: pointer;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
 }
 
 .aboutme-button:hover {
@@ -271,6 +276,7 @@ ul {
   color: #fff;
   outline: none;
   border: 1px solid #6070ff;
+  transform: scale(1.1);
 }
 
 .aboutme-button:focus {
@@ -354,7 +360,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1190px) {
+@media screen and (min-width: 768px) {
   #skills {
     width: 60%;
     padding: 142px 142px 0 0;
