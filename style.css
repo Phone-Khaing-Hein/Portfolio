@@ -366,6 +366,10 @@ html {
     padding: 142px 142px 0 0;
   }
 
+  .reverse > .card-body {
+    padding-left: 24px;
+  }
+
   .skill-detail > img {
     padding-right: 62px;
   }
@@ -466,6 +470,10 @@ html {
     top: 0;
     right: 0;
     background: #fff;
+  }
+
+  .reverse {
+    flex-flow: column-reverse !important;
   }
 
   .content {
