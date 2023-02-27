@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://phonekhainghein-portfolio.netlify.app/)
+- [Live Demo Link](https://rimuru-tempest-26.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,6 +126,7 @@ Example:
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
+
 👤 **Phone Khaing Hein**
 
 - GitHub: [@phonekhainghein](https://github.com/Rimuru-Tempest-26), [@helina](https://github.com/helina42)
