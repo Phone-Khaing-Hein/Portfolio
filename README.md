@@ -129,7 +129,7 @@ Example:
 
 👤 **Phone Khaing Hein**
 
-- GitHub: [@phonekhainghein](https://github.com/Rimuru-Tempest-26), [@helina](https://github.com/helina42)
+- GitHub: [@phonekhainghein](https://github.com/Rimuru-Tempest-26)
 - Twitter: [@phonekhainghein](https://twitter.com/PhoneKhaingHein)
 - LinkedIn: [Phone Khaing Hein](https://www.linkedin.com/in/phone-khaing-hein-759497216/)
 
