@@ -40,6 +40,12 @@ ul {
   font-size: 18px;
   color: #6070ff;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.brand:hover,
+.brand:focus {
+  color: #2230d2;
 }
 
 #hamburger {
