@@ -38,14 +38,9 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  color: #6070ff;
+  color: #2230d2;
   text-decoration: none;
   cursor: pointer;
-}
-
-.brand:hover,
-.brand:focus {
-  color: #2230d2;
 }
 
 #hamburger {
@@ -99,7 +94,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #2230d2;
   margin-bottom: 12px;
 }
 
@@ -174,14 +169,14 @@ ul {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7a869a;
+  color: #000;
 }
 
 .date {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7a869a;
+  color: #000;
 }
 
 .work-description {
@@ -205,7 +200,7 @@ ul {
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #2230d2;
 }
 
 .card-button {
@@ -333,7 +328,7 @@ hr {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  color: #6070ff;
+  color: #2230d2;
   border: none;
   margin-bottom: 45px;
   cursor: pointer;
@@ -476,6 +471,30 @@ html {
     top: 0;
     right: 0;
     background: #fff;
+  }
+
+  .contact-form-button {
+    color: #6070ff;
+  }
+
+  .brand {
+    color: #6070ff;
+  }
+
+  .status {
+    color: #7a869a;
+  }
+
+  .date {
+    color: #7a869a;
+  }
+
+  .language {
+    color: #6070ff;
+  }
+
+  .connect-link {
+    color: #7f8cff;
   }
 
   .reverse {
