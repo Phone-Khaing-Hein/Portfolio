@@ -13,7 +13,11 @@ hamburger.addEventListener("click", (_) => {
   const contactus = document.getElementById("contact-us");
   const navbar = document.getElementsByClassName("navbar")[0];
 
-  headline.setAttribute("style", "filter:blur(7px");
+  headline.setAttribute("style", "filter:blur(7px)");
+  projects.setAttribute("style", "filter:blur(7px)");
+  aboutme.setAttribute("style", "filter:blur(7px)");
+  contactus.setAttribute("style", "filter:blur(7px)");
+  navbar.setAttribute("style", "filter:blur(7px)");
 
   portfolio.innerText = "Portfolio";
   const about = document.createElement("p");
@@ -29,7 +33,7 @@ hamburger.addEventListener("click", (_) => {
     "style",
     "color:white;padding: 0;border: none;background: none;display: block;cursor: pointer;z-index:3"
   );
-  closeButton.innerHTML = "X";
+  closeButton.innerHTML = "<p style='font-size:30px;margin-top:-15px;'>x<p/>";
 
   hamburger.setAttribute("style", "display:none");
   div.setAttribute("id", "mobile-nav");
@@ -49,6 +53,11 @@ hamburger.addEventListener("click", (_) => {
   close.addEventListener("click", (_) => {
     hamburger.setAttribute("style", "display:block");
     const remove = document.getElementById("mobile-nav");
+    headline.setAttribute("style", "filter:blur(0px)");
+    projects.setAttribute("style", "filter:blur(0px)");
+    aboutme.setAttribute("style", "filter:blur(0px)");
+    contactus.setAttribute("style", "filter:blur(0px)");
+    navbar.setAttribute("style", "filter:blur(0px);z-index:2");
     remove.remove();
   });
 });
