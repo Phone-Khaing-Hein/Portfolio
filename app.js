@@ -20,11 +20,11 @@ hamburger.addEventListener('click', () => {
   contactus.setAttribute('style', 'filter:blur(7px)');
   navbar.setAttribute('style', 'filter:blur(7px)');
 
-  portfolio.innerText = 'Portfolio';
+  portfolio.innerHTML = '<a href="#headline">Portfolio</a>';
   const about = document.createElement('p');
-  about.innerText = 'About';
+  about.innerHTML = '<a href="#aboutme">About</a>';
   const contact = document.createElement('p');
-  contact.innerText = 'Contact';
+  contact.innerHTML = '<a href="#contact-us">Contact</a>';
   menu.setAttribute(
     'style',
     'color:#fff;display:flex;flex-direction:column;align-self:start;margin-top:32px;gap:40px;font-style: normal;font-weight: 600;font-size: 32px;line-height: 44px;',
