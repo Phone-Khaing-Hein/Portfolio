@@ -1,8 +1,8 @@
-/* eslint-disable linebreak-style */
 const hamburger = document.getElementById('hamburger');
+
 let close;
 
-hamburger.addEventListener('click', (_) => {
+hamburger.addEventListener('click', () => {
   const div = document.createElement('div');
   const body = document.getElementsByTagName('body')[0];
   const closeButton = document.createElement('button');
@@ -51,7 +51,7 @@ hamburger.addEventListener('click', (_) => {
   body.appendChild(div);
   close = document.getElementById('mobile-nav');
 
-  close.addEventListener('click', (_) => {
+  close.addEventListener('click', () => {
     hamburger.setAttribute('style', 'display:block');
     const remove = document.getElementById('mobile-nav');
     headline.setAttribute('style', 'filter:blur(0px)');
