@@ -140,6 +140,12 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+👤 **Tom Daniel Udoh**
+
+- GitHub: [@tomdan-ai](https://github.com/tomdan-ai)
+- Twitter: [@kingwebstar](https://twitter.com/Tomudoh1)
+- LinkedIn: [Tom Daniel](https://www.linkedin.com/in/tom-udoh-a89046256/)
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>

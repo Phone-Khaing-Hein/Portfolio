@@ -11,9 +11,22 @@ body {
   background: #e5e5e5;
 }
 
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mb-90 {
+  margin-bottom: 90px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }
 
 ul {
@@ -486,6 +499,7 @@ html {
     border: none;
     background: none;
     display: block;
+    cursor: pointer;
   }
 
   #menu {
@@ -497,7 +511,7 @@ html {
     height: 718px;
     background-color: #fff;
     background-repeat: no-repeat;
-    margin-top: 72px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: start;
