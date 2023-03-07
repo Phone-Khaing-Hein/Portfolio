@@ -38,7 +38,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  color: #6070ff;
+  color: #1743c6;
   text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #1743c6;
   margin-bottom: 12px;
 }
 
@@ -168,14 +168,14 @@ ul {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7a869a;
+  color: #175ea1;
 }
 
 .date {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7a869a;
+  color: #a519ac;
 }
 
 .work-description {
@@ -199,7 +199,7 @@ ul {
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #2739db;
 }
 
 .card-button {
@@ -327,7 +327,7 @@ hr {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  color: #6070ff;
+  color: #1743c6;
   border: none;
   margin-bottom: 45px;
   cursor: pointer;
@@ -486,6 +486,7 @@ html {
     border: none;
     background: none;
     display: block;
+    cursor: pointer;
   }
 
   #menu {
