@@ -1,3 +1,4 @@
+// MOBILE MENU
 const hamburger = document.getElementById('hamburger');
 
 let close;
@@ -62,6 +63,8 @@ hamburger.addEventListener('click', () => {
     remove.remove();
   });
 });
+
+// FORM VALIDATION
 
 const form = document.getElementById('contactusform');
 
