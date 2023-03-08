@@ -62,3 +62,25 @@ hamburger.addEventListener('click', () => {
     remove.remove();
   });
 });
+
+const form = document.getElementById('contactusform');
+
+form.addEventListener('submit', (e) => {
+  const email = e.target[1].value;
+  if (email.toLowerCase() === email) {
+    const name = e.target[0].value;
+    const message = e.target[2].value;
+    fetch('https://formspree.io/f/xknarzyz', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, message }),
+    });
+  } else {
+    e.preventDefault();
+    const error = document.getElementById('error');
+    error.innerText = 'Email must be lowercase.';
+    error.style = 'color:#fff;display:block;margin-top:-20px;margin-bottom:10px';
+  }
+});
