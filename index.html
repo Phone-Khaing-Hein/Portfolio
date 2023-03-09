@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Phone Khaing Hein Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
 </head>
@@ -255,13 +255,11 @@
             coding. I'd love to help with it
         </p>
         <form action="https://formspree.io/f/xknarzyz" class="contact-form" method="post" id="contactusform">
-            <input type="text" class="input" value="" name="name" placeholder="Enter Name"
-                maxlenth="30" required>
-            <input type="email" class="input" value="" name="email" placeholder="Enter Email"
-                required>
+            <input type="text" class="input" id="username" name="name" placeholder="Enter Name" maxlenth="30" required>
+            <input type="email" class="input" id="email" name="email" placeholder="Enter Email" required>
             <p id="error" class="d-none"></p>
-            <textarea name="message" class="textarea" cols="30" rows="7" placeholder="Write your message here"
-                maxlenth="500" required></textarea>
+            <textarea name="message" class="textarea" id="message" cols="30" rows="7"
+                placeholder="Write your message here" maxlenth="500" required></textarea>
             <button type="submit" class="contact-form-button">Get in touch</button>
         </form>
     </section>
