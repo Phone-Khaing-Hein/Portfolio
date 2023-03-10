@@ -247,7 +247,7 @@ projects.map((p, index) => {
         <div class="modal-image">
           <img src="./images/modal${
   index + 1
-}.png" alt="projects" style="width:100%;height:350px" />
+}.png" alt="projects" class="pj-image" />
         </div>
         <div class="modal-body">
           <p class="modal-description">
