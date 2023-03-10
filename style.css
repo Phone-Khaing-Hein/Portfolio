@@ -414,7 +414,8 @@ html {
     position: fixed;
     width: 40%;
     opacity: 1 !important;
-    height: 90%;
+    height: 95%;
+    margin-top: -40px;
   }
 
   .modal-header {
@@ -471,7 +472,7 @@ html {
     background: #fff;
     border: 1px solid #396df2;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    border-radius: 16px;
+    border-radius: 8px;
     color: #396df2;
     display: flex;
     align-items: center;
@@ -672,7 +673,7 @@ html {
     background: #fff;
     border: 1px solid #396df2;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    border-radius: 16px;
+    border-radius: 8px;
     color: #396df2;
     display: flex;
     align-items: center;
