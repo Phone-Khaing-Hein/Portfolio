@@ -396,7 +396,7 @@ html {
     left: 0;
     bottom: 0;
     background-color: rgb(193, 199, 208, 0.7);
-    padding: 10px 142px 0 142px;
+    padding: 30px 142px 0 142px;
     display: flex;
     justify-content: center;
   }
