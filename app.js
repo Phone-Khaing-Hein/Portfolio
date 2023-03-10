@@ -127,3 +127,175 @@ message.addEventListener('change', (e) => {
   contactData.username = username.value;
   localStorage.setItem('contact-data', JSON.stringify(contactData));
 });
+
+// create popups in projects section
+
+const projects = [
+  {
+    image: 'images/work5.svg',
+    title: 'Tonic',
+    company: 'CANOPY',
+    position: 'Back End Dev',
+    year: '2015',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    skills: ['html', 'css', 'javascript'],
+    demoLink: 'https://rimuru-tempest-26.github.io/Portfolio/',
+    sourceLink: 'https://github.com/Rimuru-Tempest-26/Portfolio',
+    reverse: false,
+  },
+  {
+    image: 'images/work6.svg',
+    title: 'Multi-Post Stories',
+    company: 'FACEBOOK',
+    position: 'Full Stack Dev',
+    year: '2015',
+    description: `Experimental content creation feature that allows users to add to an existing story over the course
+                    of a day without
+                    spamming their friends.`,
+    skills: ['html', 'Ruby on rails', 'css', 'javascript'],
+    demoLink: 'https://rimuru-tempest-26.github.io/Portfolio/',
+    sourceLink: 'https://github.com/Rimuru-Tempest-26/Portfolio',
+    reverse: true,
+    rubyLink: true,
+  },
+  {
+    image: 'images/work1.svg',
+    title: 'Facebook 360',
+    company: 'FACEBOOK',
+    position: 'Full Stack Dev',
+    year: '2015',
+    description: `Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy
+                    360 photos and
+                    videos on Gear VR.`,
+    skills: ['html', 'Ruby on rails', 'css', 'javascript'],
+    demoLink: 'https://rimuru-tempest-26.github.io/Portfolio/',
+    sourceLink: 'https://github.com/Rimuru-Tempest-26/Portfolio',
+    reverse: false,
+    rubyLink: true,
+  },
+  {
+    image: 'images/work2.svg',
+    title: 'Uber Navigation',
+    company: 'Uber',
+    position: 'Lead Developer',
+    year: '2018',
+    description: `A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive
+                    computer: your car.`,
+    demoLink: 'https://rimuru-tempest-26.github.io/Portfolio/',
+    sourceLink: 'https://github.com/Rimuru-Tempest-26/Portfolio',
+    reverse: true,
+    rubyLink: true,
+  },
+];
+
+const porjectSection = document.getElementById('projects');
+
+projects.map((p, index) => {
+  porjectSection.innerHTML += `
+        <div class="card ${p.reverse && 'flex-reverse'}">
+            <img src="${p.image}" alt="Project 1" class="card-image">
+            <div class="card-body">
+                <h2 class="card-title">${p.title}</h2>
+                <ul class="position">
+                    <li class="name">${p.company}</li>
+                    <li><img src="images/icons/bullet.svg" alt="bullet icon"></li>
+                    <li class="status">${p.position}</li>
+                    <li><img src="images/icons/bullet.svg" alt="bullet icon"></li>
+                    <li class="date">${p.year}</li>
+                </ul>
+                <p class="work-description">
+                    ${p.description}
+                </p>
+                <ul class="languages">
+                    <li class="language"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
+                    ${
+  p.rubyLink
+    ? '<li class="language"><a href=true>Ruby on rails</a>'
+    : ''
+}
+                    <li class="language"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">css</a></li>
+                    <li class="language"><a
+                            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">javascript</a></li>
+                </ul>
+                <button class="card-button" type="button" id="project${index}">See Project</button>
+            </div>
+        </div>
+  `;
+  return true;
+});
+
+const modal = document.getElementById('modalview');
+
+projects.map((p, index) => {
+  const project = document.getElementById(`project${index}`);
+  project.addEventListener('click', () => {
+    for (let i = 0; i < projects.length; i += 1) {
+      document
+        .getElementById(`project${i}`)
+        .setAttribute('style', 'z-index:-1');
+    }
+    modal.classList.remove('d-none');
+    modal.innerHTML += `
+    <div class="modal" id="modal">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h2 class="modal-title">
+            ${p.title}
+          </h2>
+          <button id="cancel">
+            <img src="./images/icons/cancel.svg" alt="Cancel icon" />
+          </button>
+        </div>
+        <ul style="display:flex;gap:12px;padding-left:24px;align-items:center;color:#7A869A;">
+            <li class="modal-company">${p.company}</li>
+            <li><img src="images/icons/bullet.svg" alt="bullet icon"></li>
+            <li class="modal-position">${p.position}</li>
+            <li><img src="images/icons/bullet.svg" alt="bullet icon"></li>
+            <li class="modal-year">${p.year}</li>
+        </ul>
+        <div class="modal-image">
+          <img src="./images/modal${
+  index + 1
+}.png" alt="projects" class="pj-image" />
+        </div>
+        <div class="modal-body">
+          <p class="modal-description">
+            ${p.description}
+          </p>
+          <div styles="display:flex;flex-direction:column;" class="mobile-body">
+            <ul class="languages">
+              <li class="language"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
+              ${
+  p.rubyLink
+    ? '<li class="language"><a href=true>Ruby on rails</a>'
+    : ''
+}
+              <li class="language"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">css</a></li>
+              <li class="language"><a
+                      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">javascript</a></li>
+            </ul>
+            <hr/>
+            <div style="display:flex;gap:5px;" class="modal-mobile">
+              <a href="${p.demoLink}" target="_blank" class="seeLive">See live <img src="./images/icons/seeLive.svg" width="20" /></a>
+              <a href="${p.sourceLink}" target="_blank" class="seeLive">See Source <img src="./images/icons/github2.svg" width="20" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+    const cancel = document.getElementById('cancel');
+    cancel.addEventListener('click', () => {
+      for (let i = 0; i < projects.length; i += 1) {
+        document
+          .getElementById(`project${i}`)
+          .setAttribute('style', 'z-index:0');
+      }
+      modal.innerHTML = '';
+    });
+  });
+
+  return true;
+});
