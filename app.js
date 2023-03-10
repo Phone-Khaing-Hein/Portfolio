@@ -140,6 +140,8 @@ const projects = [
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     skills: ['html', 'css', 'javascript'],
+    demoLink: 'https://rimuru-tempest-26.github.io/Portfolio/',
+    sourceLink: 'https://github.com/Rimuru-Tempest-26/Portfolio',
     reverse: false,
   },
   {
@@ -152,6 +154,8 @@ const projects = [
                     of a day without
                     spamming their friends.`,
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
+    demoLink: 'https://rimuru-tempest-26.github.io/Portfolio/',
+    sourceLink: 'https://github.com/Rimuru-Tempest-26/Portfolio',
     reverse: true,
     rubyLink: true,
   },
@@ -165,6 +169,8 @@ const projects = [
                     360 photos and
                     videos on Gear VR.`,
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
+    demoLink: 'https://rimuru-tempest-26.github.io/Portfolio/',
+    sourceLink: 'https://github.com/Rimuru-Tempest-26/Portfolio',
     reverse: false,
     rubyLink: true,
   },
@@ -176,6 +182,8 @@ const projects = [
     year: '2018',
     description: `A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive
                     computer: your car.`,
+    demoLink: 'https://rimuru-tempest-26.github.io/Portfolio/',
+    sourceLink: 'https://github.com/Rimuru-Tempest-26/Portfolio',
     reverse: true,
     rubyLink: true,
   },
@@ -223,7 +231,9 @@ projects.map((p, index) => {
   const project = document.getElementById(`project${index}`);
   project.addEventListener('click', () => {
     for (let i = 0; i < projects.length; i += 1) {
-      document.getElementById(`project${i}`).setAttribute('style', 'z-index:-1');
+      document
+        .getElementById(`project${i}`)
+        .setAttribute('style', 'z-index:-1');
     }
     modal.classList.remove('d-none');
     modal.innerHTML += `
@@ -267,8 +277,8 @@ projects.map((p, index) => {
             </ul>
             <hr/>
             <div style="display:flex;gap:5px;" class="modal-mobile">
-              <button class="seeLive">See live <img src="./images/icons/seeLive.svg" width="20" /></button>
-              <button class="seeLive">See Source <img src="./images/icons/github2.svg" width="20" /></button>
+              <a href="${p.demoLink}" target="_blank" class="seeLive">See live <img src="./images/icons/seeLive.svg" width="20" /></a>
+              <a href="${p.sourceLink}" target="_blank" class="seeLive">See Source <img src="./images/icons/github2.svg" width="20" /></a>
             </div>
           </div>
         </div>
